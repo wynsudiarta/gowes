@@ -2,6 +2,7 @@
 import React from 'react'
 
 import logo from '../../logo.svg'
+import pic from '../../pic.png'
 
 const style = {
   logo: {
@@ -13,9 +14,9 @@ const style = {
 const AppHeader = ({ title }) => {
   return (
     <header className='AppHeader center'>
-      <h1>
-        <img src={logo} alt="React logo" style={style.logo}/>
+      <h1 style={{ textAlign: 'right', display: 'block', width: '100%'}}>
         <span>{ title }</span>
+        <img src={pic} alt="React logo" style={style.logo}/>
       </h1>
     </header>
   )

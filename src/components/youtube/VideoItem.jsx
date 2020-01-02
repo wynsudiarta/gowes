@@ -51,7 +51,7 @@ const VideosItem = ({ video, handleVideo }) => {
               alt={title}
             />
           </figure>
-          <div className='card-content'>
+          <div className='card-content' style={{ padding: '10px'}}>
             <span
               style={style.cardTitle}
               className='card-title grey-text text-darken-4'

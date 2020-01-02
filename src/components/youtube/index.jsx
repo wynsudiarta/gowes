@@ -23,7 +23,7 @@ class Youtube extends Component {
   }
 
   componentDidMount () {
-    this.handleSubmit(`UCnLdHOuue5i1O7TsH6oh07w`)
+    this.handleSubmit(`UC5Oqw8gxILTZv2C7gB3v_vA`)
     document.addEventListener('keydown', this.escFunction, false)
   }
 
@@ -71,8 +71,8 @@ class Youtube extends Component {
 
     return (
       <div className='container'>
-        <AppHeader title={`Youtube Channel Search`}/>
-        <SearchBar handleFormSubmit={this.handleSubmit}/>
+        <AppHeader title={`Gowes Video`}/>
+        {/*<SearchBar handleFormSubmit={this.handleSubmit}/>*/}
         {loadingSpinner}
         <VideosList handleVideo={this.handleVideo} videos={this.state.videos} isLoading={this.state.isLoading}/>
         <VideoDetail handleVideo={this.handleVideo} video={this.state.video}/>
