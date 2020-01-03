@@ -11,6 +11,7 @@ const style = {
     lineHeight: '1.4',
     fontWeight: '600',
     margin: '0',
+    textAlign: 'center'
   },
   figure: {
     display: 'block',
@@ -25,11 +26,13 @@ const style = {
   }
 }
 
-const VideosItem = ({ video, handleVideo }) => {
+const VideosItem = ({ large, video, handleVideo }) => {
   const { title, thumbnails } = video.snippet
+  const width = 'col l4 m6 s12';
 
+  const image = thumbnails.maxres;
   return (
-    <article className='col l3 m6 s12'>
+    <article className={width}>
       <ReactCSSTransitionGroup
         transitionName="video-item"
         transitionAppear={true}
@@ -44,9 +47,9 @@ const VideosItem = ({ video, handleVideo }) => {
           >
             <img
               style={style.img}
-              src={thumbnails.medium.url}
-              width={thumbnails.medium.width}
-              height={thumbnails.medium.height}
+              src={image.url}
+              width={image.width}
+              height={image.height}
               title={title}
               alt={title}
             />
