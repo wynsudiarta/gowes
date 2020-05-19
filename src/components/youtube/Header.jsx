@@ -14,9 +14,9 @@ const style = {
 const AppHeader = ({ title }) => {
   return (
     <header className='AppHeader center'>
-      <h1 style={{ textAlign: 'right', display: 'block', width: '100%'}}>
-        <span>{ title }</span>
+      <h1 style={{ display: 'block', width: '100%'}}>
         <img src={pic} alt="React logo" style={style.logo}/>
+        <span>Cycling, Exploring and Culinary</span>
       </h1>
     </header>
   )

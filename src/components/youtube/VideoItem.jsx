@@ -11,7 +11,8 @@ const style = {
     lineHeight: '1.4',
     fontWeight: '600',
     margin: '0',
-    textAlign: 'center'
+    textAlign: 'center',
+    color: '#ececec'
   },
   figure: {
     display: 'block',
@@ -54,10 +55,10 @@ const VideosItem = ({ large, video, handleVideo }) => {
               alt={title}
             />
           </figure>
-          <div className='card-content' style={{ padding: '10px'}}>
+          <div className='card-content' style={{ padding: '10px', background: '#30475e'}}>
             <span
               style={style.cardTitle}
-              className='card-title grey-text text-darken-4'
+              className='card-title'
               title={title}
             >{ title }</span>
           </div>
