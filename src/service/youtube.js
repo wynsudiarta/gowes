@@ -7,7 +7,7 @@ export const searchChannel = id =>
 	http.get('/channels', { params: { id, part: 'contentDetails' } })
 
 export const getPlaylist = playlistId =>
-	http.get('/playlistItems', { params: { playlistId, part: 'snippet', maxResults: 16 } })
+	http.get('/playlistItems', { params: { playlistId, part: 'snippet', maxResults: 50 } })
 
 export default {
   searchVideos,
