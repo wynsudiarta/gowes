@@ -42,7 +42,7 @@ class Youtube extends Component {
           const { items } = res.data
           if (items.length > 0) {
             const { uploads } = res.data.items[0].contentDetails.relatedPlaylists
-            return youtube.getPlaylist(uploads)
+            return youtube.getPlaylist('PLep7gtyP6dSIBInq2wgIEjnO7tevMNixK')
               .then(r => {
                 console.log(r.data)
                 this.setState({ videos: r.data.items })

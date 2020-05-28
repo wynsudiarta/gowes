@@ -46,14 +46,16 @@ const VideosItem = ({ large, video, handleVideo }) => {
             className='card-image waves-effect waves-block waves-light'
             onClick={() => handleVideo(video)}
           >
-            <img
-              style={style.img}
-              src={image.url}
-              width={image.width}
-              height={image.height}
-              title={title}
-              alt={title}
-            />
+            {image && (
+              <img
+                style={style.img}
+                src={image.url}
+                width={image.width}
+                height={image.height}
+                title={title}
+                alt={title}
+              />
+            )}
           </figure>
           <div className='card-content' style={{ padding: '10px', background: '#30475e'}}>
             <span
