@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "83a8f5ed40f01d61b997",
-    "url": "/gowes/static/css/main.7823df3f.chunk.css"
+    "revision": "810046485653671d9a47",
+    "url": "/gowes/static/css/main.48a51c0d.chunk.css"
   },
   {
-    "revision": "83a8f5ed40f01d61b997",
-    "url": "/gowes/static/js/main.83a8f5ed.chunk.js"
+    "revision": "810046485653671d9a47",
+    "url": "/gowes/static/js/main.81004648.chunk.js"
   },
   {
     "revision": "2af6d170e9355c686a8a",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/gowes/static/media/pic.bee21921.png"
   },
   {
-    "revision": "f2ab7da85518cd0284db6cd0c2ad26b3",
+    "revision": "357ef59c6b0659e885702b08caae59f8",
     "url": "/gowes/index.html"
   }
 ];
