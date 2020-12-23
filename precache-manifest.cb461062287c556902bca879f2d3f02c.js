@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/gowes/static/media/pic.bee21921.png"
   },
   {
-    "revision": "b647691de06f5abe2cfd5765c7e757b2",
+    "revision": "f2ab7da85518cd0284db6cd0c2ad26b3",
     "url": "/gowes/index.html"
   }
 ];
